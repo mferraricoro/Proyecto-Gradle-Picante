@@ -4,4 +4,4 @@ install: true
 jdk: oraclejdk11
 
 script:
-  - ./gradlew build --scan -s
+  - ./gradlew build
