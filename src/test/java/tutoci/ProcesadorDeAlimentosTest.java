@@ -27,7 +27,7 @@ public class ProcesadorDeAlimentosTest {
 	
 	@Test
 	public void debePoderHacerBusquedasDeAlimentos() {
-		Assert.assertEquals(2, procesadorDeAlimentos.filterEj1(1100).size());
+		Assert.assertEquals(3, procesadorDeAlimentos.filterEj1(1100).size());
 	}
 
 	@Test
